@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "554409812124",
+    "firebase_url": "https://instagram-clone-91711.firebaseio.com",
+    "project_id": "instagram-clone-91711",
+    "storage_bucket": "instagram-clone-91711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554409812124:android:c9fb2a58ff998577854d59",
+        "android_client_info": {
+          "package_name": "rocks.talha.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554409812124-mpu4uptr10ijfn50i4774ujjlg049ufe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQXCEUMYunhecGmNYLP39zO40nsQilzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554409812124-mpu4uptr10ijfn50i4774ujjlg049ufe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
