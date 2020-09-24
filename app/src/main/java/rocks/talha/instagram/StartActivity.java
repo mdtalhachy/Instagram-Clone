@@ -11,6 +11,10 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.net.Inet4Address;
+
 public class StartActivity extends AppCompatActivity {
 
     private ImageView iconImage;
@@ -69,6 +73,16 @@ public class StartActivity extends AppCompatActivity {
         @Override
         public void onAnimationRepeat(Animation animation) {
 
+        }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if(FirebaseAuth.getInstance().getCurrentUser() != null){
+            startActivity(new Intent(StartActivity.this, MainActivity.class));
+            finish();
         }
     }
 }
