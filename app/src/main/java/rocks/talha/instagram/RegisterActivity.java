@@ -94,6 +94,8 @@ public class RegisterActivity extends AppCompatActivity {
                 map.put("username", username);
                 map.put("email", email);
                 map.put("id", auth.getCurrentUser().getUid());
+                map.put("bio", "");
+                map.put("imageurl", "default");
 
                 mRootRef.child("Users").child(auth.getCurrentUser().getUid()).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
